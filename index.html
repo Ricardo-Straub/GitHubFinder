@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHub Finder</title>
+    <script defer src="GitHub.js"></script>
+    <script defer src="UI.js"></script>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="title">
+            <h2><strong>GitHub</strong> Finder</h2>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="error">
+        <p>User not found</p>
+    </div>
+    <div class="search-container">
+        <h1 class="title">Search GitHub Users</h1>
+        <form>
+            <label for="username-text-input">Enter a Username to fetch a Users info and repos</label>
+            <input type="text" id="username-text-input" placeholder="GitHub Username...">
+        </form>
+    </div>
+</main>
+</body>
+</html>
